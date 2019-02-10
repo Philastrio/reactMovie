@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/philastrio.github.io/reactmovie/precache-manifest.a88b20d5bb12e5c367b5fbd7863ce28e.js"
+  "/reactmovie/precache-manifest.40fd6a8b3b593780cf57ff47e452914c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/philastrio.github.io/reactmovie/index.html", {
+workbox.routing.registerNavigationRoute("/reactmovie/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
